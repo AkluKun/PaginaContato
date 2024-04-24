@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lição 1</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+    <style>
+        nav a {
+            padding: 50px;
+            display: flex;
+        }
+
+        footer {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer
+
+         main {
+            width: 15%;
+            position: center;
+        }
+
+        body {
+            background: rgb(5, 0, 85);
+            background: linear-gradient(90deg, rgba(5, 0, 85, 1) 0%, rgb(24, 102, 204) 48%, rgba(9, 9, 121, 1) 100%);
+        }
+
+
+        nav a,
+        footer div a {
+            color: white !important;
+        }
+
+        main{
+            width: 20%;
+        }
+    </style>
+
+    <!-- As a link -->
+    <nav class="navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Cadastre-se</a>
+        </div>
+    </nav>
+
+
+    <div class="container text-center">
+        <div class="row">
+            <div class="col">
+                <main class="position-absolute top-50 start-50 translate-middle">
+                    <section>
+
+                        <div class="mb-3">
+
+                            <input class="form-control" type="text" placeholder="Nome"
+                                aria-label="Disabled input example">
+
+                        </div>
+
+                        <div class="mb-3">
+
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email">
+                        </div>
+
+                        <div class="mb-3">
+
+                            <input class="form-control" type="text" placeholder="Assunto"
+                                aria-label="Disabled input example">
+
+                        </div>
+
+                        <div class="mb-3">
+
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                                placeholder="Mensagem"></textarea>
+                        </div>
+
+                        <div class="d-grid gap-2">
+                            <button class="btn btn-primary" type="button">Enviar</button>
+                        </div>
+
+                    </section>
+                </main>
+            </div>
+        </div>
+    </div>
+
+
+
+    <footer class="text-center text-light">
+
+        <!-- Copyright -->
+        <div class="text-center p-3">
+            © 2020 Copyright:
+            <a class="text-body" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+
+
+
+</body>
+
+</html>
